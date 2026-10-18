@@ -194,7 +194,7 @@ export function buildIssueComment(deltas: Delta[], mention: string[] = []): stri
 export function buildIssueBody(appNames: string[]): string {
   return [
     `Daily App Store rating changes for ${appNames.join(', ')}, posted by`,
-    '[dipstick](https://github.com/cluestick-io/dipstick).',
+    '[dipstick](https://github.com/brogan-io/dipstick).',
     '',
     'Each comment covers one day: worldwide average, net change per star, and',
     'the storefronts that moved.',
